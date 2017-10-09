@@ -44,7 +44,7 @@
                 points.push([x * factor, y * factor]);
             }
         }
-        const capacity = 3;
+        const capacity = 200;
         const npoints = Math.floor(points.length / capacity);
         var sites = d3.range(npoints)
             .map(function (d) {
