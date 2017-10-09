@@ -15,7 +15,7 @@
 
 <script>
     var img = new Image();
-    img.src = './img/train.jpg';
+    img.src = './img/train_bw.jpg';
     img.onload = function () {
         draw(this);
     };
@@ -44,7 +44,7 @@
                 points.push([x * factor, y * factor]);
             }
         }
-        const capacity = 900;
+        const capacity = 14;
         const npoints = Math.floor(points.length / capacity);
         var sites = d3.range(npoints)
             .map(function (d) {
