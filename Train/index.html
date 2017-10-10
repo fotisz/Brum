@@ -41,12 +41,12 @@
         var factor = height / canvas.height;
         for (var i = 0; i < data.length; i += 16) {
             if (Math.random() > (data[i] + data[i + 1] + data[i + 2]) / (3 * 256)) {
-                var y = Math.floor(i / 16 / canvas.width),
-                    x = (i / 16) - y * canvas.width;
+                var y = Math.floor(i / 4 / canvas.width),
+                    x = (i / 4) - y * canvas.width;
                 points.push([x * factor, y * factor]);
             }
         }
-        const capacity = 15;
+        const capacity = 14;
         const npoints = Math.floor(points.length / capacity);
         var sites = d3.range(npoints)
             .map(function (d) {
