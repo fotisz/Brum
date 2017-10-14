@@ -1,7 +1,7 @@
 # Brum
 Engineering Art Competition - University of Birmingham
 
-![Train](../train.png)
+![Train](./train.png)
 
 Using a [Capacity Constrained Point Distributions](http://graphics.uni-konstanz.de/publikationen/index.html#y2009), an algorithm by Michael Balzer, Thomas Schlömer & Oliver Deussen (University of Konstanz, Germany, 2009) to display a picture of a train.  
 
